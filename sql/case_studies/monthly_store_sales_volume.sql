@@ -11,16 +11,16 @@
 -- - ORDER BY for ranking
 
 SELECT
-    YEAR([Order Date]) AS OrderYear,
-    MONTH([Order Date]) AS OrderMonth,
+    YEAR([Order Date]) AS [Order Year],
+    MONTH([Order Date]) AS [Order Month],
     [StoreKey],
-    SUM([Quantity]) AS TotalQuantity
+    SUM([Quantity]) AS [Total Quantity]
 FROM tempdb.dbo.Sales
 GROUP BY
     YEAR([Order Date]),
     MONTH([Order Date]),
     [StoreKey]
 ORDER BY
-    OrderYear,
-    OrderMonth,
-    TotalQuantity DESC;
+    [Order Year],
+    [Order Month],
+    [Total Quantity] DESC;
