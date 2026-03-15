@@ -3,8 +3,6 @@
 --Real-World Use Case:
 --Data analysts often need to highlight top performers or outliers in a dataset. For HR or finance teams, this query quickly surfaces the top earners per department for compensation analysis.
 
-
-
 WITH DeptSalaryRank AS (
     SELECT 
         e.EMPNO,
