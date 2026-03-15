@@ -1,4 +1,4 @@
-# Raksha – Data Analytics Portfolio
+# Raksha's – Data Analytics Portfolio
 
 Welcome to my data analytics portfolio. I use SQL, numerous Visualization tools,Power BI is one of them and Python to solve business problems, explore data, and build clear, actionable insights.
 
