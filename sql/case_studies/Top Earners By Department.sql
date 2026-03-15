@@ -1,9 +1,9 @@
 --Query Purpose:
---This query identifies the highest-paid employee in each department using a CTE and the RANK() window function.
---Skills Used - CTE, RANK(), ROW NUMBER()
+--These queries identifies the highest-paid employee in each department using a CTE and the RANK() window function.
+--Skills Used: CTE, RANK(), ROW NUMBER()
 --Note: Using RANK() keeps ties so in case 2 employees in same department having highest salary it will show both Employee Names while using ROWNUMBER it doesn't keep Ties.
 
-
+--Using RANK()
 
 WITH DeptSalaryRank AS (
     SELECT 
@@ -19,6 +19,7 @@ SELECT *
 FROM DeptSalaryRank
 WHERE sal_rank = 1;
 
+--Using ROW NUMBER()
 
 WITH DeptSalaryRank AS (
     SELECT 
