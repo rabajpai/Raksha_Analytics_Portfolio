@@ -40,6 +40,14 @@ This repository contains a collection of my professional projects, demonstrating
 * Oracle SQL Developer
 * Jupyter
 
+## Explore My Work
+
+* **SQL Projects:** Case studies demonstrating advanced SQL for business analysis and data validation.
+
+* **Power BI Projects:** Interactive dashboards with a focus on data modeling and DAX.
+
+* **Python Projects:** Data analysis, automation, and ETL scripts.
+
 ## Contact
 
 If you’d like to discuss my work or opportunities:
