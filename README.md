@@ -8,9 +8,9 @@ This repository contains a collection of my professional projects, demonstrating
 
 ## Featured Projects
 
-* **GCP Migration & Performance Optimization** (Project Coming Soon!): A deep dive into a project using BigQuery to migrate and optimize legacy SQL workloads, including performance tuning and validation scripts.
-
-* **Power BI: Global Retail Sales Report:** An interactive dashboard providing key business insights with advanced features like DAX, RLS, and drill-through capabilities. [View Project](https://github.com/rabajpai/Raksha_Analytics_Portfolio/tree/main/PowerBI)
+1. **GCP Migration: SQL Performance Tuning & Automated Data Validation:** A deep dive into a project using BigQuery to migrate and optimize legacy SQL workloads, including performance tuning and automated reconciliation scripts. ([Explore Project](/SQL_Projects/Performance-and-Validation))
+2. **Power BI: Global Retail Sales Report:** An interactive dashboard providing key business insights with advanced features like DAX, RLS, and drill-through capabilities. ([Explore Project](/PowerBI))
+3. **Python: Diwali Sales EDA:** Exploratory data analysis demonstrating data cleaning, manipulation, and visualization to uncover target customer demographics. ([Explore Project](/Python))
 
 ## My Skill Set
 
